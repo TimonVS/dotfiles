@@ -79,10 +79,13 @@ defaults write NSGlobalDomain AppleLanguages -array "en-US" "nl-NL"
 mkdir -p ~/Screenshots
 defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 
+# Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Kill affected apps
-for app in "Dock" "Finder"; do
+for app in "Dock" "Finder" "SystemUIServer"; do
   killall "${app}" > /dev/null 2>&1
 done
 
