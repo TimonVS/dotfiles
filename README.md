@@ -24,3 +24,9 @@ git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/setup-macos.sh
 ```
 
+## Acknowledgements
+
+Inspiration and code was taken from many sources, including:
+
+- [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [pawelgrzybek/dotfiles](https://github.com/pawelgrzybek/dotfiles)
