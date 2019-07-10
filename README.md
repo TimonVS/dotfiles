@@ -21,8 +21,20 @@ git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
 4. Run setup
 
 ```sh
+source ~/.dotfiles/setup-symlinks.sh
+```
+
+```sh
 source ~/.dotfiles/setup-macos.sh
 ```
+
+5. Install zsh (**pre macOS Catalina only!**)
+
+```sh
+source ~/.dotfiles/setup-zsh.sh
+```
+
+5. Install [oh-my-zsh](https://ohmyz.sh)
 
 ## Acknowledgements
 
