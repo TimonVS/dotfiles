@@ -1,38 +1,43 @@
 #!/bin/bash
 
-# System Preferences > Dock > Size:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Dock & Dashboard
+
+# Dock size
 defaults write com.apple.dock tilesize -int 36
 
-# System Preferences > Dock > Minimize windows into application icon
+# Minimize windows into application icon
 defaults write com.apple.dock minimize-to-application -bool true
 
-# System Preferences > Dock > Automatically hide and show the Dock:
+# Auto hide dock
 defaults write com.apple.dock autohide -bool true
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
+# Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# System Preferences > Mission Control > Dashboard
+# Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -boolean true
+
+# Don’t show Dashboard as a Space
+defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Keyboard > Key Repeat
-defaults write NSGlobalDomain KeyRepeat -int 2
+# Keyboard
 
-# System Preferences > Keyboard > Delay Until Repeat
+# Set a fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Trackpad > Tap to click
+# Mouse & Trackpad
+
+# Tap to click on trackpad
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-# System Preferences > Accessibility > Mouse & Trackpad > Trackpad Potions
+# Enable three finger dragging
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
 
@@ -41,35 +46,38 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Finder > Preferences > Show all filename extensions
+# Finder
+
+# Show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder > Preferences > Show wraning before changing an extension
+# Don't show warning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Finder > Preferences > Show warning before removing from iCloud Drive
+# Don't show warning before removing from iCloud Drive
 defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
-# Finder > View > As List
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-
-# Finder > View > Show Path Bar
-defaults write com.apple.finder ShowPathbar -bool true
+# Set the home directory as the default location for new Finder windows
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Language & Region
 
 defaults write NSGlobalDomain AppleLocale -string "en_NL"
-
-defaults write NSGlobalDomain AppleLanguages -array (
-    "en-US",
-    "nl-NL"
-)
+defaults write NSGlobalDomain AppleLanguages -array "en-US" "nl-NL"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Others:
+# Others
+
+# Save screenshots to the desktop
+mkdir -p ~/Screenshots
+defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
