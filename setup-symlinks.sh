@@ -1,6 +1,6 @@
 # Variables
 dir=~/.dotfiles
-files=".zshrc"
+files=".zshrc .tool-versions"
 
 # Lets make it look nicer
 echo ""
