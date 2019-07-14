@@ -1,6 +1,6 @@
 # Variables
 dir=~/.dotfiles
-files=".zshrc .tool-versions"
+files=".zshrc .tool-versions .gitconfig"
 
 # Lets make it look nicer
 echo ""
