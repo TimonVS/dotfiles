@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>31C6F774-4D64-4335-A539-0EA968955B56</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>acm</string>
+			<key>spaces</key>
+			<string>+</string>
+			<key>text</key>
+			<string>Search ACM DL for '{query}'</string>
+			<key>url</key>
+			<string>http://dl.acm.org.ezproxy.hro.nl/results.cfm?query={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

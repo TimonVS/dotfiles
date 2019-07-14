@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 9,
+        "colorSelected" : "#FFFFFFC4",
+        "font" : "System",
+        "color" : "#AFAFAF65"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#5C515FFF"
+      },
+      "backgroundSelected" : "#480069E4",
+      "text" : {
+        "size" : 17,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#D9D9D9E5"
+      },
+      "iconPaddingHorizontal" : 4,
+      "paddingVertical" : 3,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 4,
+      "background" : "#00000000",
+      "spacing" : 0,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#FFFFFFFF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#1010107F",
+      "paddingHorizontal" : 0,
+      "width" : 640,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 30,
+      "roundness" : 8,
+      "paddingVertical" : 0
+    },
+    "credit" : "Caiobep",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#561A72FF",
+      "thickness" : 1
+    },
+    "name" : "macOS Dark Theme"
+  }
+}
