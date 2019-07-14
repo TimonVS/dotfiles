@@ -6,6 +6,16 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Apps
+brew cask install visual-studio-code
+brew cask install 1password
+brew cask install slack
+brew cask install firefox-developer-edition
+brew cask install google-chrome
+
+# Alfred v3
+brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/64e9549b65c5a84632dc3451c6249fa1c375efb4/Casks/alfred.rb
+
 # CLI tools
 
 # asdf
