@@ -10,7 +10,7 @@ brew upgrade
 brew cask install visual-studio-code
 brew cask install 1password
 brew cask install slack
-brew cask install firefox-developer-edition
+brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install google-chrome
 
 # Alfred v3
