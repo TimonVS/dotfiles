@@ -60,6 +60,9 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
   - Install macOS Sierra theme (http://www.packal.org/theme/macos-sierra)
   - Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
   - Set Alfred hotkey to ⌘ + space
+
+10. Enable recommendations in Storage Management (Preferences > Storage Management)
+
 ## Acknowledgements
 
 Inspiration and code was taken from many sources, including:
