@@ -40,6 +40,11 @@ source ~/.dotfiles/setup-zsh.sh
 
 6. Install [oh-my-zsh](https://ohmyz.sh)
 
+7. Symlink VS Code settings manually:
+
+```sh
+ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
+```
 ## Acknowledgements
 
 Inspiration and code was taken from many sources, including:
