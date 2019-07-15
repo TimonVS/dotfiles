@@ -1,6 +1,10 @@
 [core]
   excludesfile = ~/.dotfiles/.gitignore-global
 
+# Reuse recorded resolution of conflicted merges
+[rerere]
+	enabled = true
+
 [user]
   name = Timon van Spronsen
   email = timonvanspronsen@outlook.com
