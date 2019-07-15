@@ -70,6 +70,7 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
   - Add a new item:
     - From key: `non_us_backslash`
     - To key `grave_accent_and_tilde`
+  - Go to Misc and disable "Show icon in menubar"
 
 ## Acknowledgements
 
