@@ -63,7 +63,13 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 
 10. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-11. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+11. Install apps from the Mac App Store:
+
+  - Unsplash Wallpapers (new wallpaper from Unsplash every day)
+  - Wipr (adblocker for Safari)
+  - Things 3 (todo app)
+
+12. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
   - Open Karabiner Elements > Simple Modifications
   - Select `Apple Internal Keyboard / Trackpad` from the dropdown
