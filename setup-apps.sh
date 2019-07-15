@@ -6,6 +6,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # Apps
 brew cask install visual-studio-code
 brew cask install 1password
@@ -16,6 +18,20 @@ brew cask install spotify
 
 # Alfred v3
 brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/64e9549b65c5a84632dc3451c6249fa1c375efb4/Casks/alfred.rb
+
+# Spectacle
+brew cask install spectacle
+
+# Hide status item for Spectacle.app
+defaults write com.divisiblebyzero.Spectacle StatusItemEnabled -bool false
+
+# Add Spectacle.app as a login item
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Spectacle.app", hidden:false}'
+
+# Set up my preferred keyboard shortcuts for Spectacle.app
+# cp -r spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # CLI tools
 
@@ -29,6 +45,8 @@ asdf install
 
 # yarn
 npm i -g yarn
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Remove outdated versions from the cellar.
 brew cleanup
