@@ -61,15 +61,27 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
   - Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
   - Set Alfred hotkey to ⌘ + space
 
-10. Enable recommendations in Storage Management (Preferences > Storage Management)
+10. Install Dracula terminal theme
 
-11. Install apps from the Mac App Store:
+  - Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
+
+  ```sh
+  git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-terminal-app && open ~/Projects/dracula-terminal-app/Dracula.terminal
+  ```
+
+- Open Terminal preferences and set Dracula as the default theme
+
+11. Enable recommendations in Storage Management (Preferences > Storage Management)
+
+12. Install apps from the Mac App Store:
 
   - Unsplash Wallpapers (new wallpaper from Unsplash every day)
   - Wipr (adblocker for Safari)
+    - Enable extension in Safari
+    - Enable automatic refresh
   - Things 3 (todo app)
 
-12. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+13. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
   - Open Karabiner Elements > Simple Modifications
   - Select `Apple Internal Keyboard / Trackpad` from the dropdown
