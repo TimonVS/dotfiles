@@ -9,17 +9,10 @@
 
   // Workbench
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.showIcons": false,
-  "workbench.iconTheme": null,
   "workbench.fontAliasing": "auto",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Ariake Dark",
-  "workbench.colorCustomizations": {
-    "[Ariake Dark]": {
-      // Make selected comments readable, ref: https://github.com/a-wart/ariake-dark/issues/4
-      "editor.selectionBackground": "#ffffff21"
-    }
-  },
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "ayu",
 
   // Breadcrumbs
   "breadcrumbs.enabled": false,

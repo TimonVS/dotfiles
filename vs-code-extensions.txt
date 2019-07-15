@@ -21,6 +21,7 @@ Prisma.vscode-graphql
 redhat.vscode-yaml
 sbrink.elm
 silvenon.mdx
+teabyii.ayu
 Tyriar.lorem-ipsum
 unional.vscode-sort-package-json
 wart.ariake-dark
