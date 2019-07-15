@@ -51,6 +51,15 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 ```sh
 ~/.dotfiles/install-vs-code-extensions.sh
 ```
+
+9. Configure Alfred settings (use GUI)
+
+  - Activate Powerpack (license key is in 1Password)
+  - Sync with `.dotfiles` directory
+  - Enable Alfred clipboard (enable for plain text and images)
+  - Install macOS Sierra theme (http://www.packal.org/theme/macos-sierra)
+  - Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
+  - Set Alfred hotkey to ⌘ + space
 ## Acknowledgements
 
 Inspiration and code was taken from many sources, including:
