@@ -33,6 +33,20 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Fonts
+
+# Add fonts tap
+brew tap homebrew/cask-fonts
+
+brew cask install font-fira-code
+brew cask install font-fira-mono
+brew cask install font-fira-sans
+brew cask install font-roboto
+brew cask install font-source-sans-pro
+brew cask install font-inter
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # CLI tools
 
 # asdf
