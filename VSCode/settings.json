@@ -1,5 +1,52 @@
 {
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "git.autofetch": true
+  // Editor
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "400",
+
+  // Workbench
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.showIcons": false,
+  "workbench.iconTheme": null,
+  "workbench.fontAliasing": "auto",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Ariake Dark",
+  "workbench.colorCustomizations": {
+    "[Ariake Dark]": {
+      // Make selected comments readable, ref: https://github.com/a-wart/ariake-dark/issues/4
+      "editor.selectionBackground": "#ffffff21"
+    }
+  },
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // GitLens
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": true,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+
+  // Language specific settings
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
