@@ -45,6 +45,12 @@ source ~/.dotfiles/setup-zsh.sh
 ```sh
 ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 ```
+
+8. Install VS Code extensions:
+
+```sh
+~/.dotfiles/install-vs-code-extensions.sh
+```
 ## Acknowledgements
 
 Inspiration and code was taken from many sources, including:
