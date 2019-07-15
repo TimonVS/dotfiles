@@ -54,20 +54,20 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 
 9. Configure Alfred settings (use GUI)
 
-  - Activate Powerpack (license key is in 1Password)
-  - Sync with `.dotfiles` directory
-  - Enable Alfred clipboard (enable for plain text and images)
-  - Install macOS Sierra theme (http://www.packal.org/theme/macos-sierra)
-  - Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
-  - Set Alfred hotkey to ⌘ + space
+- Activate Powerpack (license key is in 1Password)
+- Sync with `.dotfiles` directory
+- Enable Alfred clipboard (enable for plain text and images)
+- Install macOS Sierra theme (http://www.packal.org/theme/macos-sierra)
+- Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
+- Set Alfred hotkey to ⌘ + space
 
 10. Install Dracula terminal theme
 
-  - Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
+- Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
 
-  ```sh
-  git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-terminal-app && open ~/Projects/dracula-terminal-app/Dracula.terminal
-  ```
+```sh
+git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-terminal-app && open ~/Projects/dracula-terminal-app/Dracula.terminal
+```
 
 - Open Terminal preferences and set Dracula as the default theme
 
@@ -80,20 +80,20 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 
 13. Install apps from the Mac App Store:
 
-  - Unsplash Wallpapers (new wallpaper from Unsplash every day)
-  - Wipr (adblocker for Safari)
-    - Enable extension in Safari
-    - Enable automatic refresh
-  - Things 3 (todo app)
+- Unsplash Wallpapers (new wallpaper from Unsplash every day)
+- Wipr (adblocker for Safari)
+  - Enable extension in Safari
+  - Enable automatic refresh
+- Things 3 (todo app)
 
 14. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
-  - Open Karabiner Elements > Simple Modifications
-  - Select `Apple Internal Keyboard / Trackpad` from the dropdown
-  - Add a new item:
-    - From key: `non_us_backslash`
-    - To key `grave_accent_and_tilde`
-  - Go to Misc and disable "Show icon in menubar"
+- Open Karabiner Elements > Simple Modifications
+- Select `Apple Internal Keyboard / Trackpad` from the dropdown
+- Add a new item:
+  - From key: `non_us_backslash`
+  - To key `grave_accent_and_tilde`
+- Go to Misc and disable "Show icon in menubar"
 
 ## Acknowledgements
 
