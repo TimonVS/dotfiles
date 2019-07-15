@@ -35,7 +35,7 @@ git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
 5. Install zsh (**pre macOS Catalina only!**)
 
 ```sh
-source ~/.dotfiles/setup-zsh.sh
+~/.dotfiles/setup-zsh.sh
 ```
 
 6. Install [oh-my-zsh](https://ohmyz.sh)
