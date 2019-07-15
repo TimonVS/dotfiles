@@ -38,7 +38,7 @@ git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/setup-zsh.sh
 ```
 
-5. Install [oh-my-zsh](https://ohmyz.sh)
+6. Install [oh-my-zsh](https://ohmyz.sh)
 
 ## Acknowledgements
 
