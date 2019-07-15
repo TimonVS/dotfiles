@@ -63,6 +63,14 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 
 10. Enable recommendations in Storage Management (Preferences > Storage Management)
 
+11. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+
+  - Open Karabiner Elements > Simple Modifications
+  - Select `Apple Internal Keyboard / Trackpad` from the dropdown
+  - Add a new item:
+    - From key: `non_us_backslash`
+    - To key `grave_accent_and_tilde`
+
 ## Acknowledgements
 
 Inspiration and code was taken from many sources, including:
