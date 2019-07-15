@@ -21,6 +21,7 @@ brew cask install slack
 brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install google-chrome
 brew cask install spotify
+brew cask install whatsapp
 brew cask install karabiner-elements
 
 # Alfred v3
