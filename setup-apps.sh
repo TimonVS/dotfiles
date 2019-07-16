@@ -68,7 +68,17 @@ asdf install
 # yarn
 npm i -g yarn
 
+# safe-rm
+brew install safe-rm
+# Alias rm to safe-rm by putting it before rm in the path
+ln -s /usr/local/bin/safe-rm /usr/local/bin/rm
+# Symlink global config for safe-rm
+sudo ln -s ~/.dotfiles/safe-rm.conf /etc/safe-rm.conf
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# initialize new settings
+source ~/.zshrc
