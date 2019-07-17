@@ -27,3 +27,4 @@ unional.vscode-sort-package-json
 wart.ariake-dark
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
+streetsidesoftware.code-spell-checker

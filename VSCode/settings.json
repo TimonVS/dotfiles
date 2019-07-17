@@ -38,8 +38,15 @@
     "suppressWelcomeNotice": true
   },
 
+  // Code Spell Checker
+  "cSpell.enabledLanguageIds": ["markdown", "plaintext", "text"],
+  "cSpell.userWords": ["kickstarter", "netlify", "shopify"],
+
   // Language specific settings
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   }
 }
