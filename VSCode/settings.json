@@ -22,6 +22,9 @@
   "git.confirmSync": false,
   "git.autofetch": true,
 
+  // Terminal
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
   // GitLens
   "gitlens.currentLine.enabled": false,
   "gitlens.codeLens.enabled": false,
