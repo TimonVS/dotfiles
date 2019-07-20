@@ -61,8 +61,12 @@ brew cask install font-inter
 brew install coreutils
 brew install gpg
 brew install asdf
+# NodeJS
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+# Elm
+asdf plugin-add elm https://github.com/vic/asdf-elm.git
+# Install versions defined in .tool-versions
 asdf install
 
 # yarn
