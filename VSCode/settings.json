@@ -45,11 +45,21 @@
   "cSpell.enabledLanguageIds": ["markdown", "plaintext", "text"],
   "cSpell.userWords": ["kickstarter", "netlify", "shopify"],
 
+  // Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+
   // Language specific settings
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
