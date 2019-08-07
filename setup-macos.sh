@@ -92,6 +92,9 @@ defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 # Show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
+# Enable font smoothing on non-Retina displays
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Kill affected apps
