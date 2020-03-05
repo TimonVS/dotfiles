@@ -11,8 +11,11 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.fontAliasing": "auto",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.iconTheme": "ayu",
+  "workbench.settings.editor": "json",
+
+  // Window
+  "window.zoomLevel": 0,
 
   // Breadcrumbs
   "breadcrumbs.enabled": false,
@@ -40,16 +43,20 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-
+  
   // Code Spell Checker
   "cSpell.enabledLanguageIds": ["markdown", "plaintext", "text"],
-  "cSpell.userWords": ["kickstarter", "netlify", "shopify"],
-
-  // Prettier
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
+  "cSpell.userWords": [
+    "kickstarter",
+    "netlify",
+    "shopify",
+    "spronsen"
+  ],
 
   // Language specific settings
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
