@@ -58,7 +58,7 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 - Sync with `.dotfiles` directory
 - Enable Alfred clipboard (enable for plain text and images)
 - Install macOS Sierra theme (http://www.packal.org/theme/macos-sierra)
-- Disable Spotlight hotkey (System Preferences > Keyboard > Spotlight > Show Spotlight search)
+- Disable Spotlight hotkey (System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search)
 - Set Alfred hotkey to ⌘ + space
 
 10. Install Dracula terminal theme
