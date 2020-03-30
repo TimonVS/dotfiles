@@ -5,6 +5,8 @@ ZSH_THEME="lambda"
 
 plugins=(git osx)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
 # Add ~/bin to path

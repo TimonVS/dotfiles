@@ -2,6 +2,10 @@
 
 **Warning:** the settings in this repo are highly personal. You may fork the repository and change the settings to your liking but please review the code before using!
 
+## Prerequisites
+
+- macOS Catalina (10.15) or later
+
 ## Installation
 
 1. Install XCode Command Line Developer tools for Git
@@ -23,38 +27,34 @@ git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
 4. Run setup
 
 ```sh
-~/.dotfiles/setup-symlinks.sh
+~/.dotfiles/setup-macos.sh
 ```
 
 ```sh
-~/.dotfiles/setup-macos.sh
+~/.dotfiles/setup-symlinks.sh
 ```
 
 ```sh
 ~/.dotfiles/setup-apps.sh
 ```
 
-5. Install zsh (**pre macOS Catalina only!**)
+5. Install [oh-my-zsh](https://ohmyz.sh)
 
-```sh
-~/.dotfiles/setup-zsh.sh
-```
+    - Symlink `.zshrc` again (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
 
-6. Install [oh-my-zsh](https://ohmyz.sh)
-
-7. Symlink VS Code settings manually:
+6. Symlink VS Code settings manually:
 
 ```sh
 ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 ```
 
-8. Install VS Code extensions:
+7. Install VS Code extensions:
 
 ```sh
 ~/.dotfiles/install-vs-code-extensions.sh
 ```
 
-9. Configure Alfred settings (use GUI)
+8. Configure Alfred settings (use GUI)
 
 - Activate Powerpack (license key is in 1Password)
 - Sync with `.dotfiles` directory
@@ -63,7 +63,7 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 - Disable Spotlight hotkey (System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search)
 - Set Alfred hotkey to ⌘ + space
 
-10. Install Dracula terminal theme
+9. Install Dracula terminal theme
 
 - Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
 
@@ -73,14 +73,14 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
 
 - Open Terminal preferences and set Dracula as the default theme
 
-11. Configure Finder view options (Finder > View > Show View Options)
+10. Configure Finder view options (Finder > View > Show View Options)
 
 - Sort By: Name
 - Click "Use as Defaults"
 
-12. Enable recommendations in Storage Management (Preferences > Storage Management)
+11. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-13. Install apps from the Mac App Store:
+12. Install apps from the Mac App Store:
 
 - Unsplash Wallpapers (new wallpaper from Unsplash every day)
 - Wipr (adblocker for Safari)
@@ -88,7 +88,7 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
   - Enable automatic refresh
 - Things 3 (todo app)
 
-14. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+13. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
 - Open Karabiner Elements > Simple Modifications
 - Select `Apple Internal Keyboard / Trackpad` from the dropdown
