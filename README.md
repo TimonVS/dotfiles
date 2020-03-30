@@ -11,6 +11,8 @@ xcode-select --install
 ```
 
 2. [Install Homebrew](https://brew.sh/)
+    - Run `brew doctor` to make sure permissions are right
+    - Give your user ownership over Homebrew directories: `sudo chown -R $(whoami) $(brew --prefix)/*`
 
 3. Clone this repo to hidden `.dotfiles` directory in your home directory
 
