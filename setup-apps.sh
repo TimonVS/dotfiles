@@ -58,21 +58,6 @@ brew cask install font-inter
 
 # CLI tools
 
-# asdf
-brew install coreutils
-brew install gpg
-brew install asdf
-# NodeJS
-asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-# Elm
-asdf plugin-add elm https://github.com/vic/asdf-elm.git
-# Install versions defined in .tool-versions
-asdf install
-
-# yarn
-npm i -g yarn
-
 # safe-rm
 brew install safe-rm
 # Alias rm to safe-rm by putting it before rm in the path
