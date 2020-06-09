@@ -66,6 +66,9 @@ ln -s /usr/local/bin/safe-rm /usr/local/bin/rm
 # Symlink global config for safe-rm
 sudo ln -s ~/.dotfiles/safe-rm.conf /etc/safe-rm.conf
 
+# jq
+brew install jq
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Remove outdated versions from the cellar.
