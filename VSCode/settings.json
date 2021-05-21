@@ -6,6 +6,9 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.fontWeight": "400",
+  // Disable peek definition
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.suggestSelection": "first",
 
   // Workbench
   "workbench.editor.enablePreviewFromQuickOpen": false,
