@@ -21,7 +21,7 @@ xcode-select --install
 3. Clone this repo to hidden `.dotfiles` directory in your home directory
 
 ```
-git clone git@github.com:TimonVS/dotfiles.git ~/.dotfiles
+git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
 ```
 
 4. Run setup
