@@ -15,31 +15,14 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Apps
-brew cask install visual-studio-code
-brew cask install 1password
-brew cask install slack
-brew cask install homebrew/cask-versions/firefox-developer-edition
-brew cask install google-chrome
-brew cask install spotify
-brew cask install whatsapp
-brew cask install karabiner-elements
-brew cask install scroll-reverser
-brew cask install docker
-
-# Alfred v3
-brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/64e9549b65c5a84632dc3451c6249fa1c375efb4/Casks/alfred.rb
-
-# Spectacle
-brew cask install spectacle
-
-# Hide status item for Spectacle.app
-defaults write com.divisiblebyzero.Spectacle StatusItemEnabled -bool false
-
-# Add Spectacle.app as a login item
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Spectacle.app", hidden:false}'
-
-# Set up my preferred keyboard shortcuts for Spectacle.app
-# cp -r spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+brew install --cask visual-studio-code
+brew install --cask slack
+brew install --cask homebrew/cask-versions/firefox-developer-edition
+brew install --cask google-chrome
+brew install --cask spotify
+brew install --cask whatsapp
+brew install --cask scroll-reverser
+brew install --cask rectangle
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
