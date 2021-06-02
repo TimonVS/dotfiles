@@ -9,7 +9,7 @@ osascript -e 'tell application "System Preferences" to quit'
 # Dock & Dashboard
 
 # Dock size
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 48
 
 # Minimize windows into application icon
 defaults write com.apple.dock minimize-to-application -bool true
@@ -17,17 +17,8 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Auto hide dock
 defaults write com.apple.dock autohide -bool true
 
-# Hide recents section in dock
-defaults write com.apple.dock show-recents -bool false
-
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
-
-# Disable Dashboard
-defaults write com.apple.dashboard mcx-disabled -boolean true
-
-# Don’t show Dashboard as a Space
-defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -87,15 +78,9 @@ defaults write NSGlobalDomain AppleLanguages -array "en-US" "nl-NL"
 
 # Others
 
-# Save screenshots to the desktop
+# Save screenshots to screenshots folder
 mkdir -p ~/Screenshots
 defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
-
-# Show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
-# Enable font smoothing on non-Retina displays
-defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
