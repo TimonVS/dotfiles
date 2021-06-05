@@ -23,6 +23,7 @@ brew install --cask spotify
 brew install --cask whatsapp
 brew install --cask scroll-reverser
 brew install --cask rectangle
+brew install --cask raycast
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
