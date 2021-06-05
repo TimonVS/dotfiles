@@ -31,20 +31,23 @@ git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
 ```
 
 ```sh
-~/.dotfiles/setup-symlinks.sh
-```
-
-```sh
 ~/.dotfiles/setup-apps.sh
 ```
 
-5. Install [oh-my-zsh](https://ohmyz.sh)
+5. Symlink ZSH config and Git config
+
+```sh
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+```
+
+6. Install [oh-my-zsh](https://ohmyz.sh)
 
     - Symlink `.zshrc` again (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
 
-6. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
+7. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
 
-7. Configure Alfred settings (use GUI)
+8. Configure Alfred settings (use GUI)
 
 - Activate Powerpack (license key is in 1Password)
 - Sync with `.dotfiles` directory
@@ -53,7 +56,7 @@ git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
 - Disable Spotlight hotkey (System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search)
 - Set Alfred hotkey to ⌘ + space
 
-8. Install Dracula terminal theme
+7. Install Dracula terminal theme
 
 - Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
 
@@ -63,14 +66,14 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
 
 - Open Terminal preferences and set Dracula as the default theme
 
-9. Configure Finder view options (Finder > View > Show View Options)
+8. Configure Finder view options (Finder > View > Show View Options)
 
 - Sort By: Name
 - Click "Use as Defaults"
 
-10. Enable recommendations in Storage Management (Preferences > Storage Management)
+9.  Enable recommendations in Storage Management (Preferences > Storage Management)
 
-11. Install apps from the Mac App Store:
+10.  Install apps from the Mac App Store:
 
 - Unsplash Wallpapers (new wallpaper from Unsplash every day)
 - Wipr (adblocker for Safari)
@@ -78,7 +81,7 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
   - Enable automatic refresh
 - Things 3 (todo app)
 
-12. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+11. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
 - Open Karabiner Elements > Simple Modifications
 - Select `Apple Internal Keyboard / Trackpad` from the dropdown
