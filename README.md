@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- macOS Catalina (10.15) or later
+- Tested on: macOS Big Sur (11.x)
 
 ## Installation
 
