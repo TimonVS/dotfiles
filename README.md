@@ -52,24 +52,19 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 - Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
 - Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
 
-9.  Install Dracula terminal theme
+9. Install customized Dracula terminal theme
 
-- Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
-
-```sh
-git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-terminal-app && open ~/Projects/dracula-terminal-app/Dracula.terminal
-```
-
+- Install theme: `open ~/.dotfiles/Dracula.terminal`
 - Open Terminal preferences and set Dracula as the default theme
 
-9. Configure Finder view options (Finder > View > Show View Options)
+10. Configure Finder view options (Finder > View > Show View Options)
 
 - Sort By: Name
 - Click "Use as Defaults"
 
-10. Enable recommendations in Storage Management (Preferences > Storage Management)
+11. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-11. Install apps from the Mac App Store:
+12. Install apps from the Mac App Store:
 
 - Unsplash Wallpapers (new wallpaper from Unsplash every day)
 - Wipr (adblocker for Safari)
@@ -77,7 +72,7 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
   - Enable automatic refresh
 - Things 3 (todo app)
 
-12. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+13. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
 - Open Karabiner Elements > Simple Modifications
 - Select `Apple Internal Keyboard / Trackpad` from the dropdown
