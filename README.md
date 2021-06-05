@@ -42,19 +42,9 @@ git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
 
     - Symlink `.zshrc` again (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
 
-6. Symlink VS Code settings manually:
+6. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
 
-```sh
-ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
-```
-
-7. Install VS Code extensions:
-
-```sh
-~/.dotfiles/install-vs-code-extensions.sh
-```
-
-8. Configure Alfred settings (use GUI)
+7. Configure Alfred settings (use GUI)
 
 - Activate Powerpack (license key is in 1Password)
 - Sync with `.dotfiles` directory
@@ -63,7 +53,7 @@ ln -s -F ~/.dotfiles/VSCode/* ~/Library/Application\ Support/Code/User/
 - Disable Spotlight hotkey (System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search)
 - Set Alfred hotkey to ⌘ + space
 
-9. Install Dracula terminal theme
+8. Install Dracula terminal theme
 
 - Clone to `~/Projects` directory and open (import) `Dracula.terminal` after cloning.
 
@@ -73,14 +63,14 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
 
 - Open Terminal preferences and set Dracula as the default theme
 
-10. Configure Finder view options (Finder > View > Show View Options)
+9. Configure Finder view options (Finder > View > Show View Options)
 
 - Sort By: Name
 - Click "Use as Defaults"
 
-11. Enable recommendations in Storage Management (Preferences > Storage Management)
+10. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-12. Install apps from the Mac App Store:
+11. Install apps from the Mac App Store:
 
 - Unsplash Wallpapers (new wallpaper from Unsplash every day)
 - Wipr (adblocker for Safari)
@@ -88,7 +78,7 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
   - Enable automatic refresh
 - Things 3 (todo app)
 
-13. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+12. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
 
 - Open Karabiner Elements > Simple Modifications
 - Select `Apple Internal Keyboard / Trackpad` from the dropdown
