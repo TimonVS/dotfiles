@@ -15,8 +15,9 @@ xcode-select --install
 ```
 
 2. [Install Homebrew](https://brew.sh/)
-    - Run `brew doctor` to make sure permissions are right
-    - Give your user ownership over Homebrew directories: `sudo chown -R $(whoami) $(brew --prefix)/*`
+
+   - Run `brew doctor` to make sure permissions are right
+   - Give your user ownership over Homebrew directories: `sudo chown -R $(whoami) $(brew --prefix)/*`
 
 3. Clone this repo to hidden `.dotfiles` directory in your home directory
 
@@ -43,7 +44,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 6. Install [oh-my-zsh](https://ohmyz.sh)
 
-    - Symlink `.zshrc` again (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
+   - Symlink `.zshrc` again (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
 
 7. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
 
@@ -73,7 +74,7 @@ git clone https://github.com/dracula/terminal-app.git ~/Projects/dracula-termina
 
 9.  Enable recommendations in Storage Management (Preferences > Storage Management)
 
-10.  Install apps from the Mac App Store:
+10. Install apps from the Mac App Store:
 
 - Unsplash Wallpapers (new wallpaper from Unsplash every day)
 - Wipr (adblocker for Safari)
