@@ -9,4 +9,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-
+# fnm
+export PATH=/Users/timon.vanspronsen/.fnm:$PATH
+eval "`fnm env`"

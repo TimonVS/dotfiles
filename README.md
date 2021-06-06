@@ -25,46 +25,50 @@
    git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
    ```
 
-4. Run setup
+4. Configure macOS preferences
 
    ```sh
    ~/.dotfiles/setup-macos.sh
    ```
 
+5. Install applications
+
    ```sh
    ~/.dotfiles/setup-apps.sh
    ```
 
-5. Install [oh-my-zsh](https://ohmyz.sh)
+6. Install [fnm](https://github.com/Schniz/fnm)
 
-   - Symlink `.zshrc` (force overwrite): `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
+7. Install [oh-my-zsh](https://ohmyz.sh)
 
-6. Symlink Git config
+   - Symlink `.zshrc`: `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
+
+8. Symlink Git config
 
    ```sh
    ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
    ```
 
-7. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
+9. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
 
-8. Configure Raycast
+10. Configure Raycast
 
-   - Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
-   - Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
+- Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
+- Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
 
-9. Install customized Dracula terminal theme
+12. Install customized Dracula terminal theme
 
-   - Install theme: `open ~/.dotfiles/Dracula.terminal`
-   - Open Terminal preferences and set Dracula as the default theme
+    - Install theme: `open ~/.dotfiles/Dracula.terminal`
+    - Open Terminal preferences and set Dracula as the default theme
 
-10. Configure Finder view options (Finder > View > Show View Options)
+13. Configure Finder view options (Finder > View > Show View Options)
 
     - Sort By: Name
     - Click "Use as Defaults"
 
-11. Enable recommendations in Storage Management (Preferences > Storage Management)
+14. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-12. Install apps from the Mac App Store:
+15. Install apps from the Mac App Store:
 
     - Unsplash Wallpapers (new wallpaper from Unsplash every day)
     - Wipr (adblocker for Safari)
