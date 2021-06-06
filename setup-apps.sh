@@ -24,6 +24,7 @@ brew install --cask whatsapp
 brew install --cask scroll-reverser
 brew install --cask rectangle
 brew install --cask raycast
+brew install --cask 1password
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 

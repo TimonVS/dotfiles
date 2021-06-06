@@ -37,7 +37,7 @@
    ~/.dotfiles/setup-apps.sh
    ```
 
-6. Install [fnm](https://github.com/Schniz/fnm)
+6. Install [fnm](https://github.com/Schniz/fnm) to manage Node versions
 
 7. Install [oh-my-zsh](https://ohmyz.sh)
 
