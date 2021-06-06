@@ -10,9 +10,9 @@
 
 1. Install XCode Command Line Developer tools for Git
 
-```
-xcode-select --install
-```
+   ```
+   xcode-select --install
+   ```
 
 2. [Install Homebrew](https://brew.sh/)
 
@@ -21,19 +21,19 @@ xcode-select --install
 
 3. Clone this repo to hidden `.dotfiles` directory in your home directory
 
-```
-git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
-```
+   ```
+   git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
+   ```
 
 4. Run setup
 
-```sh
-~/.dotfiles/setup-macos.sh
-```
+   ```sh
+   ~/.dotfiles/setup-macos.sh
+   ```
 
-```sh
-~/.dotfiles/setup-apps.sh
-```
+   ```sh
+   ~/.dotfiles/setup-apps.sh
+   ```
 
 5. Install [oh-my-zsh](https://ohmyz.sh)
 
@@ -41,39 +41,44 @@ git clone https://github.com/TimonVS/dotfiles.git ~/.dotfiles
 
 6. Symlink Git config
 
-```sh
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-```
+   ```sh
+   ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+   ```
 
 7. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
 
 8. Configure Raycast
 
-- Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
-- Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
+   - Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
+   - Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
 
 9. Install customized Dracula terminal theme
 
-- Install theme: `open ~/.dotfiles/Dracula.terminal`
-- Open Terminal preferences and set Dracula as the default theme
+   - Install theme: `open ~/.dotfiles/Dracula.terminal`
+   - Open Terminal preferences and set Dracula as the default theme
 
 10. Configure Finder view options (Finder > View > Show View Options)
 
-- Sort By: Name
-- Click "Use as Defaults"
+    - Sort By: Name
+    - Click "Use as Defaults"
 
 11. Enable recommendations in Storage Management (Preferences > Storage Management)
 
 12. Install apps from the Mac App Store:
 
-- Unsplash Wallpapers (new wallpaper from Unsplash every day)
-- Wipr (adblocker for Safari)
-  - Enable extension in Safari
-  - Enable automatic refresh
-- Things 3 (todo app)
+    - Unsplash Wallpapers (new wallpaper from Unsplash every day)
+    - Wipr (adblocker for Safari)
+      - Enable extension in Safari
+      - Enable automatic refresh
+    - Things 3 (todo app)
 
-13. Optional (only when given a MacBook with a Dutch keyboard layout): set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+## Optional steps
 
+### Configure tilde key on Dutch keyboard
+
+Follow this step only when given a Dutch keyboard layout (vertical enter). Set up Karabiner Elements to map <kbd>§</kbd> to <kbd>`</kbd>
+
+- Install Karabiner Elements: `brew install --cask karabiner-elements`
 - Open Karabiner Elements > Simple Modifications
 - Select `Apple Internal Keyboard / Trackpad` from the dropdown
 - Add a new item:
