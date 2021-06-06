@@ -10,7 +10,17 @@ brew upgrade
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until `setup-apps.sh` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do
+  sudo -n true
+  sleep 60
+  kill -0 "$$" || exit
+done 2>/dev/null &
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Basics
+
+brew install svn
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -33,12 +43,9 @@ brew install --cask 1password
 # Add fonts tap
 brew tap homebrew/cask-fonts
 
-brew cask install font-fira-code
-brew cask install font-fira-mono
-brew cask install font-fira-sans
-brew cask install font-roboto
-brew cask install font-source-sans-pro
-brew cask install font-inter
+brew install --cask font-fira-code
+brew install --cask font-roboto
+brew install --cask font-inter
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
