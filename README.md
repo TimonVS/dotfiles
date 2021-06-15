@@ -39,6 +39,12 @@
 
 6. Install [fnm](https://github.com/Schniz/fnm) to manage Node versions
 
+    - Install latest LTS (Node 14 at the time of writing):
+
+      ```sh
+      fnm install lts/Fermium
+      ```
+
 7. Install [oh-my-zsh](https://ohmyz.sh)
 
    - Symlink `.zshrc`: `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
