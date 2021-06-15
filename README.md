@@ -78,7 +78,12 @@
 
 14. Enable recommendations in Storage Management (Preferences > Storage Management)
 
-15. Install apps from the Mac App Store:
+15. Generate new SSH key and add it to GitHub and other Git providers
+
+    - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+    - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+16. Install apps from the Mac App Store:
 
     - Unsplash Wallpapers (new wallpaper from Unsplash every day)
     - Wipr (adblocker for Safari)
