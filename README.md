@@ -47,7 +47,11 @@
 
 7. Install [oh-my-zsh](https://ohmyz.sh)
 
-   - Symlink `.zshrc`: `ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc`
+   - Symlink `.zshrc`: 
+
+      ```sh
+      ln -sf ~/.dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
+      ```
 
 8. Symlink Git config
 
