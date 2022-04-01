@@ -37,12 +37,12 @@
    ~/.dotfiles/setup-apps.sh
    ```
 
-6. Install [fnm](https://github.com/Schniz/fnm) to manage Node versions
+6. Install [Volta](https://volta.sh/) to manage Node versions
 
-    - Install latest LTS (Node 14 at the time of writing):
+    - Install latest LTS (Node 16 at the time of writing):
 
       ```sh
-      fnm install lts/Fermium
+      volta install node@16
       ```
 
 7. Install [oh-my-zsh](https://ohmyz.sh)
