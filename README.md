@@ -59,9 +59,15 @@
    ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
    ```
 
-9. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
+9. Symlink `.editorconfig`
 
-10. Configure Raycast
+  ```sh
+  ln -s ~/.dotfiles/.editorconfig-global ~/.editorconfig
+  ```
+
+10. Turn on [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) for VS Code to restore settings and extensions
+
+11. Configure Raycast
 
 - Disable Spotlight keyboard shortcut: (Keyboard > Shortcuts > Spotlight)
 - Configure Raycast shortcut to <kbd>⌘</kbd> + <kbd>space</kbd>
